@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/Title">
+
+        <ListPreference
+            android:entryValues="@array/date_values"
+            android:key="@string/DATEKEY"
+            android:title="@string/Title"
+            android:entries="@array/date_entrie"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/Title2">
+
+        <Preference
+            android:key="@string/DELETEBTN"
+            android:summary="@string/DELETESUM"
+            android:title="@string/Title2"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

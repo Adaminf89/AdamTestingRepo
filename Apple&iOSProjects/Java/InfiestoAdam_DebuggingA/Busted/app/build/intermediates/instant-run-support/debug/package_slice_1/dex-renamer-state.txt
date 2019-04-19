@@ -1,0 +1,4 @@
+#Mon Feb 19 16:39:51 EST 2018
+base.0=/Users/adaminfiesto/Desktop/Busted/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1
+renamed.0=classes.dex
+file.0=/Users/adaminfiesto/Desktop/Busted/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex

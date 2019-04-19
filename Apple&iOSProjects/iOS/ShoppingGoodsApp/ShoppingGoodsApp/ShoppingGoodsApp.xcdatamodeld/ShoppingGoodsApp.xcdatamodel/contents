@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.98" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Deck" representedClassName="Deck" syncable="YES" codeGenerationType="class">
+        <attribute name="cHP" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cOwned" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="cType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Deck" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>

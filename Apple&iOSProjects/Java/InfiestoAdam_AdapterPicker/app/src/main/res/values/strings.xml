@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InfiestoAdam_CE04</string>
+    <string-array name="picker_layoutarray">
+        <item>ListView</item>
+        <item>GridView</item>
+    </string-array>
+    <string-array name="picker_adapterarray">
+        <item>Base</item>
+        <item>Simple</item>
+        <item>Array</item>
+    </string-array>
+</resources>

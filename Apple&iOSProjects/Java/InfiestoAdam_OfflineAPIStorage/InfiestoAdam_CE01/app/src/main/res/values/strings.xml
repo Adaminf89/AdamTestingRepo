@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InfiestoAdamCE01</string>
+    <string name="nothing">NOTHING TO DISPLAY</string>
+    <string-array name="picker_adapterarray">
+        <item>Kings Raid</item>
+        <item>Android Games</item>
+        <item>Monster Hunter</item>
+    </string-array>
+</resources>

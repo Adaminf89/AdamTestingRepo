@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Infiesto_Adam_CE02</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="Enum">Employee Number</string>
+    <string name="Estatus">Estatus</string>
+    <string name="date">Has Date</string>
+    <string name="edate">Employee Date</string>
+    <string name="delete">delete</string>
+    <string name="save">Save</string>
+    <string name="SelectDate">Select A Date</string>
+    <string name="btn">SELECT DATE</string>
+    <string name="SAVE">SAVE</string>
+    <string name="Title">DATE FORMAT</string>
+    <string name="DATEKEY">DATEKEY</string>
+    <string name="Title2">Delete</string>
+    <string name="DELETEKEY">DELETEKEY</string>
+    <string name="DELETEBTN">DELETEBTN</string>
+    <string name="DELETESUM">DELETE YOUR STUFF</string>
+    <string name="Toast">"No Blank Fields"</string>
+    <string-array name="picker_layoutarray">
+        <item>Acending</item>
+        <item>Decending</item>
+    </string-array>
+
+    <string-array name="picker_adapterarray">
+        <item>All</item>
+        <item>Active</item>
+    </string-array>
+
+    <string-array name="date_values">
+        <item>MM-dd-yyyy</item>
+        <item>dd-MM-yyyy</item>
+        <item>yyyy-MM-dd</item>
+    </string-array>
+
+    <string-array name="date_entrie">
+        <item>Month</item>
+        <item>Standard</item>
+        <item>Year</item>
+    </string-array>
+</resources>

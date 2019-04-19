@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InfiestoAdam_CE02</string>
+    <string name="Btn_guess">Submit Guess</string>
+    <string name="toastUp">Attempts left</string>
+    <string name="dtitleL">You Lost</string>
+    <string name="dtitleW">You Lost</string>
+    <string name="dmsgW">You Won Test your luck</string>
+    <string name="dmsgL">You have ran out of Guesses</string>
+    <string name="dbtnL">Play Again</string>
+    <string name="dbtnCL">Cancel</string>
+</resources>

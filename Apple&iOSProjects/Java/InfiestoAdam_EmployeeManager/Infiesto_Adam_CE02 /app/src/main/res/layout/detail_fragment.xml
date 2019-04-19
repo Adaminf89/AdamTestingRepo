@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/TextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/fname" />
+
+    <TextView
+        android:id="@+id/txtName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:hint="@string/fname" />
+    <TextView
+        android:id="@+id/textLast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/lname" />
+
+    <TextView
+        android:id="@+id/txtLname2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lname"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/textleg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/Estatus" />
+
+    <TextView
+        android:id="@+id/txtStat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:hint="@string/Estatus" />
+
+    <TextView
+        android:id="@+id/textdate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/edate" />
+
+    <TextView
+        android:id="@+id/txtDate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:hint="@string/edate" />
+
+
+</LinearLayout>

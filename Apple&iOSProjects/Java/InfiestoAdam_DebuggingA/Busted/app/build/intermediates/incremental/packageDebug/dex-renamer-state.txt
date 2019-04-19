@@ -1,0 +1,7 @@
+#Mon Feb 19 15:46:21 EST 2018
+base.0=/Users/adaminfiesto/Desktop/Busted/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3613276eb9f97d0c91f2c43b85dfe5749dfe424e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/adaminfiesto/Desktop/Busted/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_106f59f716a1ace512f7e6d984c97f93ba2ec40e/classes.dex
+base.1=/Users/adaminfiesto/Desktop/Busted/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_106f59f716a1ace512f7e6d984c97f93ba2ec40e
+file.0=/Users/adaminfiesto/Desktop/Busted/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3613276eb9f97d0c91f2c43b85dfe5749dfe424e/classes.dex

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AdamInfiesto_CE03</string>
+    <string name="noTouchText">Average Word length</string>
+    <string name="noTouchText2">Median Word length</string>
+    <string name="adverTxt">0</string>
+    <string name="medTxt">0</string>
+    <string name="editText">Enter a word to add</string>
+    <string name="Btn1Add">Add</string>
+    <string name="Btn1View">View</string>
+    <string name="toastValue">Cannot be Blank</string>
+    <string name="toastValue2">All ready used word</string>
+    <string name="tItle">Your Word</string>
+    <string name="close">Close</string>
+    <string name="Remove">Remove</string>
+    <string name="Error">Error</string>
+    <string name="ErrorMessage">Sorry you have to have something to remove</string>
+</resources>

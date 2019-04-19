@@ -1,0 +1,159 @@
+[
+    {
+        "outputFile": "/Users/adaminfiesto/Desktop/Busted/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 37,
+                    "endOffset": 88
+                },
+                "from": {
+                    "file": "/Users/adaminfiesto/Desktop/Busted/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 153,
+                        "endColumn": 37,
+                        "endOffset": 186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 93,
+                    "endColumn": 43,
+                    "endOffset": 132
+                },
+                "from": {
+                    "file": "/Users/adaminfiesto/Desktop/Busted/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 43,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 137,
+                    "endColumn": 46,
+                    "endOffset": 179
+                },
+                "from": {
+                    "file": "/Users/adaminfiesto/Desktop/Busted/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endColumn": 46,
+                        "endOffset": 233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 184,
+                    "endColumn": 47,
+                    "endOffset": 227
+                },
+                "from": {
+                    "file": "/Users/adaminfiesto/Desktop/Busted/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 389,
+                        "endColumn": 47,
+                        "endOffset": 432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 232,
+                    "endColumn": 42,
+                    "endOffset": 270
+                },
+                "from": {
+                    "file": "/Users/adaminfiesto/Desktop/Busted/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 238,
+                        "endColumn": 42,
+                        "endOffset": 276
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 275,
+                    "endColumn": 52,
+                    "endOffset": 323
+                },
+                "from": {
+                    "file": "/Users/adaminfiesto/Desktop/Busted/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 52,
+                        "endOffset": 148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 328,
+                    "endColumn": 50,
+                    "endOffset": 374
+                },
+                "from": {
+                    "file": "/Users/adaminfiesto/Desktop/Busted/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 281,
+                        "endColumn": 50,
+                        "endOffset": 327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 379,
+                    "endColumn": 56,
+                    "endOffset": 431
+                },
+                "from": {
+                    "file": "/Users/adaminfiesto/Desktop/Busted/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 332,
+                        "endColumn": 56,
+                        "endOffset": 384
+                    }
+                }
+            }
+        ]
+    }
+]

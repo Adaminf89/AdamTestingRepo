@@ -1,0 +1,111 @@
+//Adam S Infiesto
+//Java 1
+//Main Activity
+package com.fullsail.android.busted;
+
+import java.util.ArrayList;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ListView;
+import android.widget.TextView;
+
+import com.fullsail.android.busted.net.GetDetailsTask;
+import com.fullsail.android.busted.net.GetMembersTask;
+import com.fullsail.android.busted.object.Member;
+
+public class MainActivity extends Activity {
+	
+	private View mMembersListScreen;
+	private View mMemberDetailsScreen;
+
+	@Override
+	protected void onCreate(Bundle _savedInstanceState) {
+		super.onCreate(_savedInstanceState);
+		//setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_main);
+
+		mMembersListScreen = findViewById(R.id.members_list_screen);
+		mMemberDetailsScreen = findViewById(R.id.member_details_screen);
+
+		GetMembersTask task = new GetMembersTask(this);
+
+		task.execute();
+	}
+
+	public void showMembersListScreen(ArrayList<Member> _members) {
+		mMemberDetailsScreen.setVisibility(View.GONE);
+		mMembersListScreen.setVisibility(View.VISIBLE);
+
+		ListView lv = (ListView)mMembersListScreen.findViewById(R.id.members_list);
+		lv.setAdapter(new MembersAdapter(this, _members));
+
+		lv.setOnItemClickListener(mItemClickListener);
+
+	}
+
+	private void showMemberDetailsScreen(int _id) {
+		mMembersListScreen.setVisibility(View.GONE);
+		mMemberDetailsScreen.setVisibility(View.VISIBLE);
+
+		GetDetailsTask task = new GetDetailsTask(this);
+		task.execute(_id);
+	}
+
+	/**
+	 * Populate the member details screen with data.
+	 *
+	 * @param _name
+	 * @param _birthday
+	 * @param _gender
+	 * @param _twitterId
+	 * @param _youtubeID
+	 * @param _cspanID
+	 */
+	public void populateMemberDetailsScreen(String _name, String _birthday, String _gender,
+			String _twitterId, String _youtubeID, String _cspanID) {
+		//not add to member to detail
+		TextView tv = (TextView)mMemberDetailsScreen.findViewById(R.id.text_name);
+		tv.setText(_name);
+
+		tv = (TextView)mMemberDetailsScreen.findViewById(R.id.text_birthday);
+		tv.setText(_birthday);
+
+		tv = (TextView)mMemberDetailsScreen.findViewById(R.id.text_gender);
+		tv.setText(_gender);
+
+		tv = (TextView)mMemberDetailsScreen.findViewById(R.id.text_twitter_id);
+		tv.setText(_twitterId);
+
+		tv = (TextView)mMemberDetailsScreen.findViewById(R.id.text_youtube_id);
+		tv.setText(_youtubeID);
+
+		tv = (TextView)mMemberDetailsScreen.findViewById(R.id.text_cspan_id);
+		tv.setText(_cspanID);
+	}
+
+	private final OnItemClickListener mItemClickListener = new OnItemClickListener() {
+
+		@Override
+		public void onItemClick(AdapterView<?> _parent, View _view, int _position, long _id) {
+			// TODO: Show the members detail screen
+			Member daMember = (Member) _parent.getItemAtPosition(_position);
+			//showMembersListScreen(daMember.getId());
+			showMemberDetailsScreen(daMember.getId());
+		}
+
+	};
+
+	public void onBackPressed() {
+		if(mMemberDetailsScreen.getVisibility() == View.VISIBLE)
+		{
+			mMemberDetailsScreen.setVisibility(View.GONE);
+			mMembersListScreen.setVisibility(View.VISIBLE);
+		} else {
+			super.onBackPressed();
+		}
+	}
+}

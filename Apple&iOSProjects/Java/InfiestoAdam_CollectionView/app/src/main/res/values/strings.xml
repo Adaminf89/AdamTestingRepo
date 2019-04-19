@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InfiestoAdam_CE05</string>
+    <string name="Id">Id</string>
+    <string name="Name">Name</string>
+    <string name="Date">Date</string>
+    <string name="Desc">Description</string>
+</resources>
